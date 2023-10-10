@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+*{
+    font-family: 'Montserrat' sans-serif;
+}
+.nav_links ul{
+    display: flex;
+    max-width: fit-content;
+    background-color: rgba(36, 36, 36, 0.425);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    /* opacity: 0.8; */
+    color: white;
+    margin-left: -80px;
+    
+}
+.nav_links ul:hover{
+    box-shadow: 0px 0px 10px 1px #fc952db1;
+}
+
+.nav_links li {
+    padding: 5px 20px;
+}
+
+
+@media (max-width: 1024px){
+    nav{
+        margin: 0 !important;
+    }
+
+    .Navbar_Sm{
+        display: flex;
+        /* margin-bottom: 50px; */
+        /* padding: 20px; */
+    }
+
+   .Navbar_Sm > ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+   }
+
+
+    .three_dots{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: rgb(109, 64, 255);
+        border-radius:70px;
+        padding: 10px;
+        
+    }
+    .three_dots span{ 
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-radius: 3px;
+        width: 20px;
+    }
+    .three_dots span:nth-child(1){ 
+        align-self: flex-end;
+        width: 10px;
+    }
+    .three_dots span:nth-child(3){ 
+        align-self: flex-start;
+        width: 10px;
+    }
+
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.faqs_page{
+    padding: 57px 120px;
+    background-color: black;
+    height: 100vh;
+    color: rgb(229, 229, 229);
+    
+}
+
+.faqs_page h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.faqs_item{
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+.question{
+    padding: 20px 0;
+    font-weight:500;
+    /* border: 1px solid white; */
+}
+
+.faqs_item > span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+.answer{
+    padding: 0px 0 20px 23px;
+    /* border: 1px solid white; */
+}
+
+.rotate_180{
+    transform: rotate(180deg);
+}
+
+
+@media (max-width: 768px){
+    .faqs_page{
+        padding: 57px 40px;
+    }
+    
+}

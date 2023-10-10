@@ -1,0 +1,212 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./Navbar.css";
+@import "./homeLeft.css";
+@import "./homeRight.css";
+@import "./Mockup.css";
+@import "./testimonials.css";
+@import "./FAQs.css";
+@import "./Menu.css";
+@import "./Navbutton.css";
+@import "./Btn.css";
+/* Import Poppins font family from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  margin: 0;
+  font-family: "Roboto";
+} */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+main >div {
+  display: flex;
+  justify-content: space-between;
+}
+main >div >div {
+  height: 100vh;
+  justify-content: space-evenly;
+  
+}
+main >div >div h2 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+main >div >div img {
+  height: 300px !important;
+  width: 500px;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.carousel {
+  overflow: hidden;
+  /* width: 700px; */
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+ 
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); */
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  /* position: absolute; */
+  display: block;
+  align-items: center;
+  /* justify-content: center; */
+  height: 490px;
+  /* background-color: #fff; */
+  /* position: absolute; */
+  /* white-space: nowrap; */
+  transition: transform 0.5s;
+  font-family: "popins";
+}
+
+.btn-main{
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+/* .carousel-item h6{
+  width: 10px;
+  color: aqua;
+} */
+
+.inner-crousel-item{
+  position: absolute;
+  top: 20%;
+  padding: 0 50px;
+}
+.options{
+  display: flex;
+  /* background-color: #fff; */
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.options input[type= "radio"]{
+  /* display: none; */
+  margin-right: 5px;
+  /* flex-direction: column; */
+}
+
+.carousel-item-text {
+  font-size: 1.15rem;
+  margin: 40px 0 40px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  color: #617d98;
+}
+.carousel-img {
+  width: 250px;
+  padding: 0 20px 0 20px;
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-arrow {
+  background-color: #26343f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 0px;
+  color: white;
+  height: 50px;
+  width: 50px;
+  /* border-radius: 5px; */
+}
+
+.button-arrow img{
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol {
+  color: #26343f;
+}
+
+.indicator-symbol-active {
+  color: #ffffff;
+}

@@ -1,0 +1,196 @@
+.homeRight {
+   display: grid;
+   grid-template-rows: 4.5fr 2fr 2fr;
+   gap: 20px;
+   padding: 20px 0;
+}
+
+
+.homeRight .card_1 {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 15px 15px;
+   border-radius: 24px;
+   background: url("../public/howitworks.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: 5px solid rgb(255, 153, 0);
+   cursor: pointer;
+   transition: all 0.5s;
+   margin-right: 10px;
+}
+
+.homeRight .card_1:hover {
+   border: 5px solid black;
+   transform: scale(1.01);
+}
+ 
+.homeRight .card_1:active {
+   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.homeRight .card_1 svg {
+   position: absolute;
+   color: white;
+   background-color: black;
+   border: 2px solid white;
+   border-radius: 100%;
+   bottom: 0;
+   right: 0;
+   width: 40px;
+   height: 40px;
+}
+
+
+.homeRight .card_1>div {
+   display: flex;
+   justify-content: space-between;
+   color: rgb(249, 249, 249);
+   
+}
+
+.homeRight .card_1>div span {
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+
+.homeRight .card_1>div p {
+   backdrop-filter: blur(90px);
+   border: 1.5px solid #ffffff;
+   padding: 10px 15px;
+   border-radius: 10px;
+}
+
+
+.homeRight .card_1>div svg {
+   background-color: #fff;
+   padding: 5px 5px;
+   border-radius: 100%;
+}
+
+
+.homeRight .card_1>p {
+   backdrop-filter: blur(80px);
+   padding: 5px 5px;
+   border-radius: 10px;
+   border: 1.5px solid #ffffff;
+   max-width: 200px;
+}
+
+.homeRight .card_2 {
+   position: relative;
+   background: url("../public/Explore\ Collections.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 15px 15px;
+   border-radius: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid rgb(255, 153, 0);
+   backdrop-filter: blur(6px);
+   cursor: pointer;
+   transition: all 0.5s;
+   margin-right: 10px;
+}
+
+.homeRight .card_2:hover {
+   border: 5px solid rgb(0, 0, 0);
+   transform: scale(1.01);
+ }
+ 
+.homeRight .card_2:active {
+   transform: scale(0.95) rotateZ(1.7deg);
+ }
+
+.homeRight .card_2 svg {
+   position: absolute;
+   color: white;
+   background-color: black;
+   border: 2px solid white;
+   border-radius: 100%;
+   bottom: 0;
+   right: 0;
+   width: 40px;
+   height: 40px;
+}
+
+.homeRight .card_2 p {
+   color: white;
+   font-weight: 900;
+   font-size: 35px;
+   backdrop-filter: blur(8px);
+   border: 1.5px solid #ffffff;
+   border-radius: 10px;
+   padding-inline-start: 10px;
+}
+
+
+.homeRight .card_3 {
+   position: relative;
+   background: url("../public/FAQ.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 15px 15px;
+   border-radius: 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   border: 5px solid rgb(255, 153, 0);
+   cursor: pointer;
+   transition: all 0.5s;
+   margin-right: 10px;
+}
+
+.homeRight .card_3:hover {
+   border: 5px solid black;
+   transform: scale(1.01);
+ }
+ 
+.homeRight .card_3:active {
+   transform: scale(0.95) rotateZ(1.7deg);
+ }
+
+.homeRight .card_3 svg {
+   position: absolute;
+   color: white;
+   background-color: black;
+   border: 2px solid white;
+   /* border-left: 6px solid white; */
+   border-radius: 100%;
+   bottom: 0;
+   right: 0;
+   width: 40px;
+   height: 40px;
+}
+
+.homeRight .card_3>div {
+   display: flex;
+   align-items: flex-end;
+   gap: 20px;
+   width: 328px;
+   backdrop-filter: blur(10px);
+   border: 1px solid #fff;
+   border-radius: 10px;
+   margin-top: 9px;
+}
+
+
+.homeRight .card_3>div span {
+   font-size: 38px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   backdrop-filter: blur(10px);
+}
+ 
+
+@media (max-width: 1024px) {
+   .homeRight {
+      display: none;
+   }
+}
