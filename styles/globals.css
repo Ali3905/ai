@@ -12,6 +12,12 @@
 @import "./Menu.css";
 @import "./Navbutton.css";
 @import "./Btn.css";
+@import "./ReasonList.css";
+@import "LapySection.css";
+
+/* Import slider css */
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 /* Import Poppins font family from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100;300;400;500;700;900&display=swap');

@@ -1,0 +1,463 @@
+@font-face { 
+    font-family:'Graphik LCG';
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.eot);
+    src:local("Graphik LCG Bold"),local("GraphikLCG-Bold"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Bold.svg#GraphikLCG-Bold) format("svg");
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:'Graphik LCG';
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.eot);
+    src:local("Graphik LCG Semibold"),local("GraphikLCG-Semibold"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Semibold.svg#GraphikLCG-Semibold) format("svg");
+    font-weight:600;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:'Graphik LCG';
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.eot);
+    src:local("Graphik LCG Medium"),local("GraphikLCG-Medium"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Medium.svg#GraphikLCG-Medium) format("svg");
+    font-weight:500;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:'Graphik LCG';
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.eot);
+    src:local("Graphik LCG Regular"),local("GraphikLCG-Regular"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Regular.svg#GraphikLCG-Regular) format("svg");
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:'Graphik LCG';
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.eot);
+    src:local("Graphik LCG Black"),local("GraphikLCG-Black"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/graphik/GraphikLCG-Black.svg#GraphikLCG-Black) format("svg");
+    font-weight:900;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:Roobert;
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.eot);
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Heavy.svg#Roobert-Heavy) format("svg");
+    font-weight:900;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:Roobert;
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.eot);
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Bold.svg#Roobert-Bold) format("svg");
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:Roobert;
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.eot);
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-SemiBold.svg#Roobert-SemiBold) format("svg");
+    font-weight:600;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:Roobert;
+    font-display:swap;
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.eot);
+    src:url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.eot?#iefix) format("embedded-opentype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.woff2) format("woff2"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.woff) format("woff"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.ttf) format("truetype"),url(https://media.macphun.com/uploads/uploads/fonts/roobert/Roobert-Regular.svg#Roobert-Regular) format("svg");
+    font-weight:400;
+    font-style:normal;
+  } 
+    body {  
+      font-size:100%;
+      background:0 0;
+      font-family:Roobert,sans-serif;
+      line-height:24px;
+      color:#fff;
+      font-weight:400;
+    }  
+  * { 
+      -webkit-box-sizing: inherit; 
+      -moz-box-sizing: inherit; 
+      box-sizing: inherit;
+  } 
+  
+  *  { 
+      -webkit-box-sizing: inherit; 
+      -moz-box-sizing: inherit; 
+      box-sizing: inherit;
+  } 
+  
+  div { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  body { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  body { 
+      font-family: Roobert,sans-serif;
+  } 
+  
+  body { 
+      line-height: 24px; 
+      color: #fff; 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale; 
+      font-weight: 400;
+  } 
+  
+  body { 
+      background: #1f1f1f;
+  } 
+  
+  body { 
+      height: 100%; 
+      font-size: 16px; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  html { 
+      -ms-overflow-style: scrollbar;
+  } 
+  
+  html { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  html { 
+      -webkit-box-sizing: border-box; 
+      -moz-box-sizing: border-box; 
+      box-sizing: border-box;
+  } 
+  
+  html { 
+      font-family: Roobert,sans-serif;
+  } 
+  
+  html { 
+      line-height: 24px; 
+      color: #fff; 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale; 
+      font-weight: 400;
+  } 
+  
+  html { 
+      background: #1f1f1f;
+  } 
+  
+  html { 
+      height: 100%; 
+      font-size: 16px; 
+      -webkit-text-size-adjust: 100%;
+  } 
+  
+  .container { 
+      /* padding-right: 150px; 
+      padding-left: 150px; 
+      margin-right: auto; 
+      margin-left: auto; 
+      width: 100%;
+      background-color: #1f1f1f; */
+  } 
+  
+  @media (min-width: 576px){ 
+    .container { 
+      max-width: 550px;
+    } 
+  }     
+  
+  @media (min-width: 768px){ 
+    .container { 
+      max-width: 758px;
+    } 
+  }     
+  
+  @media (min-width: 1280px){ 
+    .container { 
+      max-width: 1260px;
+    } 
+  }     
+  
+  @media (min-width: 1800px){ 
+    .container { 
+      max-width: 1740px;
+    } 
+  }     
+  
+  .container  { 
+      /* padding-right: 150px; 
+      padding-left: 150px;  */
+      margin-right: auto; 
+      margin-left: auto; 
+      width: 100%;
+  } 
+  
+  @media (min-width: 576px){ 
+    .container  { 
+      max-width: 520px;
+    } 
+  }     
+  
+  @media (min-width: 768px){ 
+    .container  { 
+      max-width: 720px;
+    } 
+  }     
+  
+  @media (min-width: 960px){ 
+    .container  { 
+      max-width: 900px;
+    } 
+  }     
+  
+  @media (min-width: 1280px){ 
+    .container  { 
+      max-width: 1200px;
+    } 
+  }     
+  
+  @media (min-width: 1800px){ 
+    .container  { 
+      max-width: 1560px;
+    } 
+  }     
+  
+  *,:after,:before { 
+      -webkit-box-sizing: inherit; 
+      -moz-box-sizing: inherit; 
+      box-sizing: inherit;
+  } 
+  
+  * , .sk-grid ::after, .sk-grid ::before { 
+      -webkit-box-sizing: inherit; 
+      -moz-box-sizing: inherit; 
+      box-sizing: inherit;
+  } 
+  
+  .sk-grid *, .sk-grid ::after, .sk-grid ::before { 
+      -webkit-box-sizing: inherit; 
+      -moz-box-sizing: inherit; 
+      box-sizing: inherit;
+  } 
+  
+  h2 { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  .sk-h2 { 
+      font-family: "Graphik LCG",Helvetica,Arial,sans-serif; 
+      color: #212529; 
+      line-height: 1.2;
+  } 
+  
+  .sk-h2_of_b { 
+      padding-bottom: 30px;
+  } 
+  
+  .sk-h2 { 
+      font-weight: 700;
+  } 
+  
+  .sk-h2 { 
+      font-size: 48px;
+  } 
+  
+  .sk-h2_type_clean { 
+      color: #fff;
+  } 
+  
+  .sk-h2 { 
+      font-family: Roobert,Helvetica,Arial,sans-serif;
+  } 
+  
+  .sk-h2 { 
+      font-size: 40px; 
+      font-weight: 600;
+  } 
+  
+  .section-title  { 
+      text-align: center; 
+      font-size: 48px;
+  } 
+  
+  .reason-list { 
+      display: -webkit-box; 
+      display: -moz-box; 
+      display: -ms-flexbox;
+  } 
+  
+  .reason-list { 
+      display: flex; 
+      -webkit-box-pack: justify; 
+      -moz-box-pack: justify; 
+      -ms-flex-pack: justify; 
+      justify-content: center; 
+      -webkit-box-align: stretch; 
+      -moz-box-align: stretch; 
+      -ms-flex-align: stretch; 
+      align-items: stretch; 
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap; 
+      margin: 0 -15px;
+  } 
+  
+  span { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  .section-title span  { 
+      display: block; 
+      -webkit-background-clip: text; 
+      background-clip: text; 
+      color: transparent; 
+      background-size: cover; 
+      background-image: url(https://media.macphun.com/img/uploads/uploads/skylum/l/luminar-extension-title.jpg);
+  } 
+  
+  .reason-col { 
+      width: 33%; 
+      min-width: 250px;
+      padding: 0 15px; 
+      margin-bottom: 30px;
+  } 
+  
+  .reason-item { 
+      background: rgba(255,255,255,.05); 
+      border-radius: 24px; 
+      padding: 30px; 
+      height: 100%;
+  } 
+  
+  .reason-item .pic  { 
+      margin-bottom: 25px;
+  } 
+  
+  img { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  .reason-item .pic img  { 
+      width: 100%;
+  } 
+  
+  h3 { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  .title { 
+      -webkit-user-select: none; 
+      -moz-user-select: none; 
+      -ms-user-select: none;
+  } 
+  
+  .title { 
+      user-select: none;
+  } 
+  
+  .sk-h3 { 
+      font-family: "Graphik LCG",Helvetica,Arial,sans-serif; 
+      color: #212529; 
+      line-height: 1.2;
+  } 
+  
+  .sk-h3 { 
+      font-weight: 700;
+  } 
+  
+  .sk-h3 { 
+      font-size: 30px;
+  } 
+  
+  .sk-h3 { 
+      font-family: Roobert,Helvetica,Arial,sans-serif;
+  } 
+  
+  .sk-h3 { 
+      font-size: 35px; 
+      font-weight: 600;
+  } 
+  
+  .reason-item .title  { 
+      font-weight: 700; 
+      font-size: 24px; 
+      line-height: 150%; 
+      margin-bottom: 14px; 
+      color: #fff;
+  } 
+  
+  p { 
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+      outline: 0; 
+      font-size: 100%; 
+      vertical-align: baseline; 
+      background: 0 0;
+  } 
+  
+  .text { 
+      -webkit-user-select: none; 
+      -moz-user-select: none; 
+      -ms-user-select: none;
+  } 
+  
+  .text { 
+      user-select: none;
+  } 
+  
+  .reason-item .text  { 
+      color: #828282; 
+      font-weight: 400; 
+      font-size: 20px; 
+      line-height: 150%;
+  } 
+  
+  
+  

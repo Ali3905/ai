@@ -3,6 +3,10 @@ import HomeLeft from './components/Home/homeLeft'
 import HomeLeftSm from './components/Home/homeLeftSm'
 import HomeRight from './components/Home/homeRight'
 import MockupSection from './components/Home/MockupSection'
+import ReasonList from './ReasonList'
+import LapySection from './LapySection'
+import Testimonials from './testimonials'
+import FAQs from './FAQs'
 
 const home = () => {
   return (
@@ -17,6 +21,13 @@ const home = () => {
     </div>
     <HomeLeftSm />
     <MockupSection />
+    <ReasonList />
+    <Testimonials />
+
+    <LapySection />
+    <FAQs/>
+
+
     </>
   )
 }

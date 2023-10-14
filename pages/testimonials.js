@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Slider from "react-slick";
+import Next from './components/Next';
+import Prev from './components/Prev';
 
 const testimonials = () => {
+    const [active, setActive] = useState(null)
+
     const testimonials = [{
         testimonial: "Oh my God, this is lifesaver! This saved my few hours. ",
         person: "Sarah Mitchell",
@@ -20,9 +25,54 @@ const testimonials = () => {
     },
     ]
 
+    var settings = {
+        dots: true,
+        
+        infinite: false,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        nextArrow: <Next />,
+        prevArrow: <Prev />,
+        afterChange: (old) =>
+         setActive(old),
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
+
+      useEffect(()=>{
+        console.log(active);
+      },[active])
+
     return (
         <>
             <div className='testimonials_page'>
+
                 {testimonials.length > 0 && testimonials.map((ele, i) => {
                     return <div className="testimonial_card" key={i}
                     >
@@ -39,5 +89,8 @@ const testimonials = () => {
         </>
     )
 }
+
+
+
 
 export default testimonials
