@@ -196,7 +196,8 @@
        -moz-box-sizing: inherit; 
        box-sizing: inherit;
    } 
-   
+  
+
    .swiper-wrapper { 
        position: relative; 
        width: 100%; 
@@ -426,3 +427,10 @@
        transform: translate3d(-9180px, 0px, 0px);  
        transition-duration: 0ms;  
    } 
+
+
+   @media (max-width : 1024px) {
+    .swiper-wrapper{
+        display: none;
+    }
+}

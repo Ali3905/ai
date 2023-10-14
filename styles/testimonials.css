@@ -92,6 +92,8 @@
   font-weight: 700;
 }
 
+
+
 @media (max-width: 768px) and (min-width: 650px) {
   .testimonials_page {
     display: flex;
@@ -125,3 +127,8 @@
 }
 
 
+@media (max-width: 880px){
+  .testimonials_page{
+    display: none;
+  }
+}

@@ -225,6 +225,7 @@
     .container  { 
       max-width: 720px;
     } 
+    
   }     
   
   @media (min-width: 960px){ 
@@ -244,7 +245,7 @@
       max-width: 1560px;
     } 
   }     
-  
+
   *,:after,:before { 
       -webkit-box-sizing: inherit; 
       -moz-box-sizing: inherit; 
@@ -460,4 +461,11 @@
   } 
   
   
+  
+  
+  @media (max-width: 510px){ 
+    .reason-col{
+      width: 80% ;
+    } 
+  }  
   
