@@ -3,10 +3,13 @@ import Image from 'next/image';
 const ReasonList = () => {
   return (
     <div className="container snipcss-6PGaI">
-  <h2 className="sk-h2 sk-h2_of_b sk-h2_type_clean section-title" style={{}}>
+<h2 className="sk-h2 sk-h2_of_b sk-h2_type_clean section-title" style={{}}>
     6 reasons why Divyvy AI is the
-    <span>best image editing software for you</span>
-  </h2>
+    <span style={{ background: 'linear-gradient(135deg, rgb(255, 212, 59) 0%, rgb(255, 102, 0) 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+        best image editing software for you
+    </span>
+</h2>
+
   <div className="reason-list">
     <div className="reason-col">
       <div className="reason-item">

@@ -207,14 +207,32 @@
     } 
   }     
   
-  .container  { 
-      /* padding-right: 150px; 
-      padding-left: 150px;  */
+  /* .container  { 
+      padding-right: 150px; 
+      padding-left: 150px; 
       margin-right: auto; 
       margin-left: auto; 
       width: 100%;
   } 
-  
+   */
+
+
+
+   .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+/* Media query for screens wider than 768px (adjust the breakpoint as needed) */
+@media (min-width: 1024px) {
+    .container {
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+}
+
+
   @media (min-width: 576px){ 
     .container  { 
       max-width: 520px;

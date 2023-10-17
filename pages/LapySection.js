@@ -2,7 +2,7 @@ import React from 'react'
 
 const LapySection = () => {
   return (
-    <div>
+    <div className='contain'>
     <div
       className=" swiper-wrapper snipcss-VZi1E style-NSr5b"
       id="swiper-wrapper-b5156c8a17cb1532"

@@ -354,7 +354,7 @@ h1 {
         border-right: 8px solid white;
         white-space: nowrap;
         animation:
-            typing 1s steps(12, end) forwards infinite;
+            typing 1.2s steps(12, end) forwards infinite;
         /* font-size: 1.6rem; */
         width: 0;
     }
@@ -407,8 +407,8 @@ h1 {
 
     .vid_div {
         display: flex;
-        align-items: start;
-        justify-content: start;
+        align-items: flex-start;
+        justify-content: flex-start;
         position: relative;
     }
 
@@ -436,6 +436,8 @@ h1 {
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
+  
+
     .homeleft {
         display: none;
         background-color: unset;
@@ -495,6 +497,8 @@ h1 {
         padding-right: -52px;
     }
 
+
+
     .home_left_sm h2>span:nth-child(3) {
         font-weight: 700;
         overflow: hidden;
@@ -502,18 +506,34 @@ h1 {
         border-right: 8px solid white;
         white-space: nowrap;
         animation:
-            typing 1s steps(12, end) forwards infinite;
+            typing 1.2s steps(12, end) forwards infinite;
         /* font-size: 1.6rem; */
         width: 0;
     }
 
     @keyframes typing {
-        from {
+        0% {
             width: 0;
         }
+        20% {
+          width: 20%;
+        }
 
-        to {
-            width: 62%;
+        40% {
+          width: 40%;
+        }
+
+        60% {
+          width: 60%;
+        }
+
+        80% {
+          width: 80%;
+          background-color: #fff;
+        }
+
+        100% {
+            width: 100%;
         }
     }
 
@@ -544,8 +564,8 @@ h1 {
 
     .vid_div {
         display: flex;
-        align-items: start;
-        justify-content: start;
+        align-items: flex-start;
+        justify-content: flex-start;
         position: relative;
     }
 
@@ -566,6 +586,81 @@ h1 {
         position: absolute;
         top: 40%;
         left: 76%;
+    }
+
+    .name_sm {
+      font-weight: 700;
+        overflow: hidden;
+        letter-spacing: -.04em;
+        border-right: 8px solid white;
+        white-space: nowrap;
+        /* animation:
+            typing 1.2s steps(12, end) forwards infinite; */
+        /* font-size: 1.6rem; */
+        width: 0;
+      /* font-size: 5rem;
+      background-image: linear-gradient(45deg, #fa5711, #ff9d00, #fff200);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-underline-offset: 0.5rem;
+      background-size: 200% 200%; */
+      animation: gradientAnimation 5s ease infinite;
+      font-family: var(--fontName);
+    }
+  
+    .name2_sm {
+      font-size: 3rem;
+      background-image: linear-gradient(45deg, #7a11fa, #10cdf8, #b3ff00);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-underline-offset: 0.5rem;
+      background-size: 200% 200%;
+      animation: gradientAnimation 5s ease infinite;
+      font-family: var(--fontName);
+    }
+    
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+    .name1_sm {
+      font-size: 3rem;
+      color: var(--gray);
+      text-underline-offset: 0.5rem;
+      font-family: var(--fontName);
+    }
+    
+    .cursor_sm {
+      display: inline-block;
+      width: 0.2rem;
+      height: 3rem;
+      background-color: #808080;
+      animation: blinkCursor 0.5s infinite;
+    }
+    
+    @keyframes blinkCursor {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .show {
+      opacity: 1 !important;
     }
 
 

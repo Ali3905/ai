@@ -7,6 +7,7 @@ import ReasonList from './ReasonList'
 import LapySection from './LapySection'
 import Testimonials from './testimonials'
 import FAQs from './FAQs'
+import TestimonialCarousel from './components/TestimonialCarousel'
 
 const home = () => {
   return (
@@ -22,9 +23,11 @@ const home = () => {
     <HomeLeftSm />
     <MockupSection />
     <ReasonList />
-    <Testimonials />
+    {/* <Testimonials /> */}
+    
+    <TestimonialCarousel />
 
-    <LapySection />
+    {/* <LapySection /> */}
     <FAQs/>
 
 

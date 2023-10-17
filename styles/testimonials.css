@@ -1,15 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
+
+
+
+/* CSS for the Testimonials section */
+.testimonials_section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 60px 120px 160px 120px;
+  background-color: #000000;
+}
+
+/* CSS for the Testimonials section heading */
+.testimonials_section h2 {
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: #fff; /* Change the color to your preference */
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+/* CSS for the testimonials cards */
 .testimonials_page {
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
-  align-items: start;
-  padding: 57px 120px 120px 120px;
-  gap: 15px;
-  height: 100vh;
-  background-color: #000000;
+  align-items: flex-start;
+  gap: 60px;
 }
+
+
+
+
+
+
 
 .testimonial_card {
   position: relative;
@@ -17,9 +45,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 15px;
+  gap: 20px;
   padding: 2.5rem;
-  min-height: 570px;
+  min-height: 470px;
   width: 316px;
   border-radius: 20px;
   color: #000000;
@@ -128,7 +156,15 @@
 
 
 @media (max-width: 880px){
-  .testimonials_page{
+  .testimonials_section{
     display: none;
   }
 }
+
+
+
+
+
+
+
+
