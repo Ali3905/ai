@@ -74,6 +74,9 @@ const TestimonialCarousel = () => {
 
     return (
         <>
+
+          <div className='h-screen bg-black flex flex-col py-16 testimonial_carousel_section'>
+          <h2 className='text-white text-center text-5xl font-bold'>Testimonials</h2>
             <Slider className='testimonial_carousel' {...settings}>
             {testimonials.length > 0 && testimonials.map((ele, i) => {
                     return <div className="testimonial_carousel_card mr-10" key={i}
@@ -88,6 +91,7 @@ const TestimonialCarousel = () => {
                 })}
 
         </Slider>
+          </div>
         </>
     )
 }

@@ -45,6 +45,9 @@ const testimonials = () => {
     </div>
 </div>
 
+
+    
+<TestimonialCarousel />
         </>
     )
 }

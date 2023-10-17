@@ -23,9 +23,7 @@ const home = () => {
     <HomeLeftSm />
     <MockupSection />
     <ReasonList />
-    {/* <Testimonials /> */}
-    
-    <TestimonialCarousel />
+    <Testimonials />
 
     {/* <LapySection /> */}
     <FAQs/>

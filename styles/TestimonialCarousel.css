@@ -14,6 +14,7 @@
         justify-content: space-between;
         align-items: flex-start;
         gap: 15px;
+        border: 5px solid black;
         padding: 2.5rem;
         min-height: 570px;
         width: 316px;
@@ -74,12 +75,12 @@
     font-weight: 700;
   }
   
-/* 
-  @media (min-width: 879px) {
-    .testimonial_carousel{
+
+  @media (min-width: 1024px) {
+    .testimonial_carousel_section{
         display: none !important;
     }
-  } */
+  }
 
   @media (min-width: 879px) and (max-width : 600px) {
     .testimonial_carousel{
