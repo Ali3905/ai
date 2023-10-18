@@ -21,17 +21,7 @@ const TestimonialCarousel = () => {
         person: "Sarah Thompson",
         occupation: "Photographer",
         color: "#00FDFD",
-    }, {
-      testimonial: "As a professional photographer, I was amazed by the seamless image editing capabilities of this AI tool.",
-      person: "Sarah Thompson",
-      occupation: "Photographer",
-      color: "#00FDFD",
-  },{
-    testimonial: "As a professional photographer, I was amazed by the seamless image editing capabilities of this AI tool.",
-    person: "Sarah Thompson",
-    occupation: "Photographer",
-    color: "#00FDFD",
-},
+    },
     ]
 
     var settings = {
@@ -75,9 +65,9 @@ const TestimonialCarousel = () => {
     return (
         <>
 
-          <div className='h-screen bg-black flex flex-col py-16 testimonial_carousel_section'>
+          <div className='h-screen bg-black flex flex-col py-16 testimonial_carousel_section '>
           <h2 className='text-white text-center text-5xl font-bold'>Testimonials</h2>
-            <Slider className='testimonial_carousel' {...settings}>
+            <Slider className='testimonial_carousel overflow-hidden' {...settings}>
             {testimonials.length > 0 && testimonials.map((ele, i) => {
                     return <div className="testimonial_carousel_card mr-10" key={i}
                     >

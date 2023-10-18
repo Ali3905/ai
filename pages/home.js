@@ -25,7 +25,7 @@ const home = () => {
     <ReasonList />
     <Testimonials />
 
-    {/* <LapySection /> */}
+    <LapySection />
     <FAQs/>
 
 
