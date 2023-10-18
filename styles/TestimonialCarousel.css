@@ -87,3 +87,10 @@
         padding: 50px 140px;
     }
   }
+
+  @media (max-width : 400px) {
+    .testimonial_carousel_section{
+      height: 120vh !important;
+    }
+
+  }
